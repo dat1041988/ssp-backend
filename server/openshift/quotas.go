@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/Jeffail/gabs"
-	"github.com/SchweizerischeBundesbahnen/ssp-backend/server/common"
+	"github.com/dat1041988/ssp-backend/server/common"
 	"github.com/gin-gonic/gin"
 )
 
