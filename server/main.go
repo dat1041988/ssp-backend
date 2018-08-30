@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/SchweizerischeBundesbahnen/ssp-backend/server/aws"
-	"github.com/SchweizerischeBundesbahnen/ssp-backend/server/common"
-	"github.com/SchweizerischeBundesbahnen/ssp-backend/server/ddc"
-	"github.com/SchweizerischeBundesbahnen/ssp-backend/server/openshift"
-	"github.com/SchweizerischeBundesbahnen/ssp-backend/server/sematext"
+	"github.com/dat1041988/ssp-backend/server/aws"
+	"github.com/dat1041988/ssp-backend/server/common"
+	"github.com/dat1041988/ssp-backend/server/ddc"
+	"github.com/dat1041988/ssp-backend/server/openshift"
+	"github.com/dat1041988/ssp-backend/server/sematext"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
