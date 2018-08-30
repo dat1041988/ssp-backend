@@ -13,7 +13,7 @@ import (
 
 	"fmt"
 
-	"github.com/SchweizerischeBundesbahnen/ssp-backend/server/common"
+	"github.com/dat1041988/ssp-backend/server/common"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/iam"
 	"github.com/aws/aws-sdk-go/service/s3"
