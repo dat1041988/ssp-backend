@@ -7,24 +7,24 @@ export LDAP_BIND_DN='CN=ocpUser,CN=Users,DC=xplat,DC=fis,DC=vn'
 export LDAP_BIND_CRED='xplat\Administrator'
 export LDAP_FILTER='(cn=%s)'
 export SESSION_KEY=Abcd@1234
-export LDAP_SEARCH_BASE=
+export LDAP_SEARCH_BASE='OU=Domain Controllers'
 export GIN_MODE=release
 export LOGSENE_ENABLED=true
-export MAX_VOLUME_GB=100
-export GLUSTER_API_URL='http://firm.ch:2000'
-export GLUSTER_SECRET=
-export GLUSTER_IPS=
-export AWS_S3_BUCKET_PREFIX=
-export AWS_NONPROD_SECRET_ACCESS_KEY=
-export AWS_REGION=eu-central-1
-export AWS_PROD_ACCESS_KEY_ID=
-export AWS_PROD_SECRET_ACCESS_KEY=
-export AWS_NONPROD_ACCESS_KEY_ID=
-export SEMATEXT_API_TOKEN=
-export SEMATEXT_BASE_URL='https://apps.eu.sematext.com/'
-export DDC_API=
-export JENKINS_URL='http://jenkins.yourorg.com'
-export WZUBACKEND_URL=
-export WZUBACKEND_SECRET=
+#export MAX_VOLUME_GB=100
+#export GLUSTER_API_URL='http://ocpinfra01:8080'
+#export GLUSTER_SECRET=
+#export GLUSTER_IPS=
+#export AWS_S3_BUCKET_PREFIX=
+#export AWS_NONPROD_SECRET_ACCESS_KEY=
+#export AWS_REGION=eu-central-1
+#export AWS_PROD_ACCESS_KEY_ID=
+#export AWS_PROD_SECRET_ACCESS_KEY=
+#export AWS_NONPROD_ACCESS_KEY_ID=
+#export SEMATEXT_API_TOKEN=
+#export SEMATEXT_BASE_URL='https://apps.eu.sematext.com/'
+#export DDC_API=
+#export JENKINS_URL='http://jenkins.yourorg.com'
+#export WZUBACKEND_URL=
+#export WZUBACKEND_SECRET=
 
 # export https_proxy=
