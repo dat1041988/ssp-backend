@@ -6,6 +6,8 @@ COPY . .
 RUN go get -v ./server
 
 FROM centos:7
-COPY --from=builder /go/bin/server /usr/local/bin
+COPY --from=builder /go/bin/server /usr/local/bin/
+RUN chmod +x /usr/local/bin/server
+RUN ls -la /usr/local/bin/server
 EXPOSE 8080
-ENTRYPOINT /usr/local/bin/server
+ENTRYPOINT ./usr/local/bin/server
