@@ -1,6 +1,6 @@
 FROM golang as builder
 # Get specific version of gin-jwt
-RUN go get gopkg.in/appleboy/gin-jwt.v2 && cd /go/src/gopkg.in/appleboy/gin-jwt.v2 && git checkout 82a3c2c3b9ee2d6f6bd9d124870873d1c6bdae88
+RUN go get gopkg.in/appleboy/gin-jwt.v2 && cd /go/src/gopkg.in/appleboy/gin-jwt.v2 && git checkout 25dbc558978a0b3caf0358d6b70b7a8eb87bdffb
 WORKDIR /go/src/github.com/dat1041988/ssp-backend
 COPY . .
 RUN go get -v ./server
